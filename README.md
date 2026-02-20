@@ -23,3 +23,10 @@ los resultados reflejan que los procesos administrativos tradicionales siguen si
 3. El usuario puede ver si falta algún documento
 4. El sistema envía notificaciones (correo o SMS) cuando haya un cambio en el estado
 5. La información se actualiza en tiempo real o con un máximo de 24 horas de desfase
+## ***Requisitos Funcionales***
+* RF01 – El sistema debe permitir al usuario consultar el estado actual de su trámite ingresando su número de documento o código de solicitud.
+* RF02 – El sistema debe mostrar claramente las etapas del proceso (ej: Documentos recibidos, En validación, Aprobado, Rechazado, Pendiente de corrección).
+* RF03 – El sistema debe enviar notificaciones automáticas por correo electrónico o SMS cuando el estado del trámite cambie.
+* RF04 – El sistema debe permitir visualizar qué documentos han sido aprobados, rechazados o están pendientes.
+* RF05 – El sistema debe almacenar y mostrar un historial de cambios de estado con fecha y hora.
+* RF06 – El sistema debe requerir autenticación segura del usuario antes de permitir la consulta del trámite.
